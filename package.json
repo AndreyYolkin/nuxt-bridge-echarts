@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-bridge-echarts",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev",
+    "build": "nuxi build",
+    "start": "nuxi preview",
+    "generate": "nuxi generate"
+  },
+  "dependencies": {
+    "core-js": "^3.19.3",
+    "echarts": "^5.3.3",
+    "nuxt-edge": "^2.16.0-27616340.013f051b",
+    "vue": "^2.7.9",
+    "vue-echarts": "^6.2.3",
+    "webpack": "^4.46.0",
+    "zrender": "^5.3.2"
+  },
+  "devDependencies": {
+    "@nuxt/bridge": "npm:@nuxt/bridge-edge@^3.0.0-27672061.a645f7f"
+  }
+}
